@@ -1,13 +1,154 @@
+html {
+  min-height: 100%;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url("./img/img-1.png");
+  background-color: rgba(227, 227, 227, 0.71);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 5rem;
+  min-height: 50%;
+  width: auto;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  color: #555555;
+  text-shadow: 3px 3px rgba(79, 79, 79, 0.32);
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 10px;
+  margin-top: 50px;
+  font-size: 3rem;
+}
+
+h2 {
+  color: white;
+  width: 70%;
+  padding: 1.4rem ;
+  margin-left: 10%;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 5px;
+  margin-top: 15%;
+  margin-left: 15%;
+  font-size: 1.3rem;
+  background: rgba(28, 165, 180, 0.51);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.62);
+  width: 90%;
+  margin-left: 5%;
+}
+
+label {
+  color: Black;
+  font-size: 20px;
+}
+
+input[type="date"],
+input[type="time"] {
+  height: 38px;
+  padding: 6px 10px;
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box;
+}
+
+.appointment {
+  padding: 2rem;
+  font-size: 1.1rem;
+  background: url('./img/img-2.jpg');
+  background-color: white;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid #e1e1e1;
+  color: black;
+  margin-left: 20px;
+  margin-bottom: 8px;
+  width: 92%;
+}
+.list-title {
+  margin-left: 14%;
+  font-size: 1.3rem;
+}
+
+.btn-list{
+    width: 40%;
+
+    margin-left:30%;
+}
+
+.appdiv {
+  overflow-y: scroll;
+  height: 730px;
+}
+
+.appdiv::-webkit-scrollbar {
+  width: 10px;
+  height: 8px;
+}
+
+.appdiv::-webkit-scrollbar-thumb {
+  background: #878787;
+  border-radius: 4px;
+}
+
+.appdiv::-webkit-scrollbar-thumb:hover {
+  background: #008ab8;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.appdiv::-webkit-scrollbar-thumb:active {
+  background-color: #0078b5;
+}
+.appointment p {
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+}
+.appointment p span {
+  font-weight: normal;
+}
+.appointment:first-of-type {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.appointment:last-of-type {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+textarea {
+  resize: none;
+}
+.button.eliminar,
+.button.eliminar:hover {
+  background-color: #c10059;
+  color: white;
+  margin-top: 20px;
+}
+
+.alertError {
+
+  color: red;
+  padding: 1rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  width: 90%;
+  margin-left: 5%;
 }
