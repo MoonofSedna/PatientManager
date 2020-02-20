@@ -30,17 +30,22 @@ h1 {
   font-size: 3rem;
 }
 
-h2 {
+.side-section {
+  padding-top: 20px;
+}
+
+.title-style {
   color: white;
-  width: 70%;
-  padding: 1.4rem ;
-  margin-left: 10%;
+  width: 90%; /* to match the width of the card */
+  padding: 1.4rem;
+  /* margin-left: 10%; */
   text-align: center;
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
   letter-spacing: 5px;
-  margin-top: 15%;
-  margin-left: 15%;
+  /* margin-top: 15%; */
+  margin: 0 auto;
+  /* margin-left: 15%; */
   font-size: 1.3rem;
   background: rgba(28, 165, 180, 0.51);
   border-top-left-radius: 1rem;
@@ -51,6 +56,11 @@ h2 {
   background-color: rgba(255, 255, 255, 0.62);
   width: 90%;
   margin-left: 5%;
+}
+
+.card-with-header {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
 
 label {
@@ -72,25 +82,24 @@ input[type="time"] {
 .appointment {
   padding: 2rem;
   font-size: 1.1rem;
-  background: url('./img/img-2.jpg');
+  background: url("./img/img-2.jpg");
   background-color: white;
   background-size: 100%;
   background-repeat: no-repeat;
   border-bottom: 1px solid #e1e1e1;
   color: black;
-  margin-left: 20px;
+  margin: 0 auto;
   margin-bottom: 8px;
-  width: 92%;
+  width: 90%;
 }
 .list-title {
-  margin-left: 14%;
   font-size: 1.3rem;
 }
 
-.btn-list{
-    width: 40%;
+.btn-list {
+  width: 40%;
 
-    margin-left:30%;
+  margin-left: 30%;
 }
 
 .appdiv {
@@ -123,10 +132,10 @@ input[type="time"] {
 .appointment p span {
   font-weight: normal;
 }
-.appointment:first-of-type {
+/* .appointment:first-of-type {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
-}
+} */
 .appointment:last-of-type {
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
@@ -143,7 +152,6 @@ textarea {
 }
 
 .alertError {
-
   color: red;
   padding: 1rem;
   font-size: 2rem;
