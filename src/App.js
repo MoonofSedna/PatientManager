@@ -54,13 +54,16 @@ function App() {
 
           <div className="col-md-6 side-section">
             <h2 className="list-title title-style">{title}</h2>
+            <div className="appdiv">
             {list.map(appointment => (
               <Appointment
                 key={appointment.id}
                 appointment={appointment}
                 deleteapp={deleteapp}
               />
+            
             ))}
+          </div>
           </div>
         </div>
       </div>

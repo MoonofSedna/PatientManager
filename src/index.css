@@ -89,8 +89,9 @@ input[type="time"] {
   border-bottom: 1px solid #e1e1e1;
   color: black;
   margin: 0 auto;
+  margin-right: 3.2%;
   margin-bottom: 8px;
-  width: 90%;
+  width: 91.7%;
 }
 .list-title {
   font-size: 1.3rem;
@@ -98,18 +99,17 @@ input[type="time"] {
 
 .btn-list {
   width: 40%;
-
   margin-left: 30%;
 }
 
 .appdiv {
   overflow-y: scroll;
-  height: 730px;
+  height: 725px;
 }
 
 .appdiv::-webkit-scrollbar {
   width: 10px;
-  height: 8px;
+  height: 5px;
 }
 
 .appdiv::-webkit-scrollbar-thumb {
@@ -132,10 +132,7 @@ input[type="time"] {
 .appointment p span {
   font-weight: normal;
 }
-/* .appointment:first-of-type {
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-} */
+
 .appointment:last-of-type {
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;

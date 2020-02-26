@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const Appointment = ({ appointment, deleteapp }) => (
-  <div className="appointment">
+  <div className="appointment ">
     <p>
       {" "}
       Species: <span>{appointment.species}</span>{" "}
