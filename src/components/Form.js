@@ -69,10 +69,10 @@ const Form = ({ createapp }) => {
 
   return (
     <Fragment>
-      <h2>Create appointment</h2>
+      <h2 className="title-style">Create appointment</h2>
       {error ? <p className="alertError">All fields are required</p> : null}
 
-      <form className="card" onSubmit={submitapp}>
+      <form className="card card-with-header" onSubmit={submitapp}>
         <div className="card-body">
           <div className="form-group">
             <label>Species</label>
@@ -82,7 +82,8 @@ const Form = ({ createapp }) => {
               className="form-control"
               name="species"
               onChange={handleChange}
-              value={species}>
+              value={species}
+            >
               <option>Select</option>
               <option>Canine</option>
               <option>Feline</option>
